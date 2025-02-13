@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test recaptcha</title>
+
+    <link rel="stylesheet" type="text/css" href="CSS\bulma.css" />
+    <link rel="stylesheet" type="text/css" href="CSS\main.css" />
+
+<!--<script src="https://www.google.com/recaptcha/api.js"></script>-->
+
+<script src='https://www.hCaptcha.com/1/api.js' async defer></script>
+
+<!--<script>
+   function onSubmit(token) {
+     document.getElementById("Form").submit();
+   }
+ </script>-->
+
+</head>
+
+<body>
+    <!-- ContactUsForm Section -->
+<iframe src="https://php.greenspaceexhibits.com/scripts/emailTest-v2.php" style="border:1px #000000 solid; width:100vw; height: 40vh; " name="myIFrame" scrolling="Yes" frameborder="1" marginheight="0px" marginwidth="0px"  allowfullscreen></iframe>
+
+</body>
+
+<!-- Contact form tests Name and Company for data -->
+<!--<script type="text/javascript">
+    function validateForm() {
+        const invalidInput = document.getElementById("noData");
+        if (document.forms["Form"]["custom_Name"].value === "" || document.forms["Form"]["custom_Company"].value === "") {
+            invalidInput.style.display = "block";
+            return false;
+        } else if (document.forms["Form"]["custom_Name"].value !== "" || document.forms["Form"]["custom_Company"].value !== "") {
+            invalidInput.style.display = "none";
+        }
+        return true;
+    }
+</script>
+
+ <script type="text/javascript">
+    function validateEmail() {
+        const invalidEmail = document.getElementById("noEmail");
+        if (document.forms["Form"]["custom_Email"].value === "") {
+            invalidEmail.style.display = "block";
+            return false;
+        } else if (document.forms["Form"]["custom_Email"].value !== "") {
+            invalidEmail.style.display = "none";
+        }
+        return true;
+    }
+</script>
+
+<script type="text/javascript">
+    function validateMessage() {
+        const invalidMessage = document.getElementById("noMessage");
+        const gRecaptcha = document.getElementById("g-recaptcha");
+        if (document.getElementById("messageInput").value === "") {
+            invalidMessage.style.display = "block";
+            return false;
+        } else if (document.getElementById("messageInput").value !== "" && document.forms["Form"]["custom_Email"].value !== "" && document.forms["Form"]["custom_Name"].value !== "" && document.forms["Form"]["custom_Company"].value !== "") {
+            invalidMessage.style.display = "none";
+            gRecaptcha.style.opacity = "1.0";
+        }
+        return true;
+    }
+</script>-->
+
+</html>

@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+
+
+// Set your brand colors
+$green: #78853c;
+$ltgreen: #babf99;
+$brown: #727550;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+$white: #fff;
+
+// Update Bulma's global variables
+$family-sans-serif: "Oswald", sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $green;
+$link: $white;
+$widescreen-enabled: true;
+$fullhd-enabled: true;
+
+// Update some of Bulma's component variables
+$body-background-color: $white;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$navbar-burger-color: #fff;
+$navbar-item-img-max-height: 100%;
+$navbar-item-hover-background-color: #090a0050;
+$container-max-width: 1367px;
+
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/form/_all.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";

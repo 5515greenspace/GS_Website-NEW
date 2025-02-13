@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- http://www.adobe.com/crossdomain.xml -->
+<cross-domain-policy>
+  <allow-access-from domain="http://greenspacegroup.net" />
+  <allow-access-from domain="http://greenspace-exhibits.com" />
+  <allow-access-from domain="https://s3-us-west-1.amazonaws.com" />
+  <allow-access-from domain="d288unat203uy4.cloudfront.net" />
+  <allow-access-from domain="dls6z0uo4k8ln.cloudfront.net" />
+  <allow-access-from domain="gs_client.s3.amazonaws.com" />
+</cross-domain-policy>

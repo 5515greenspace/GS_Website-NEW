@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive iframe Example</title>
+<!--    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        iframe {
+            width: 100%;
+            border: 1px #000000 solid;
+            transition: height 0.3s ease;
+			allowtransparency: "true";
+        }
+    </style>-->
+</head>
+<body>
+    <iframe id="myIframe" src="https://php.greenspaceexhibits.com/scripts/emailTest-v2.php" scrolling="no" allowfullscreen></iframe>
+    <script>
+        const iframe = document.getElementById('myIframe');
+        let lastHeight = 0;
+
+        function checkIframeHeight() {
+            if (iframe.contentWindow) {
+                iframe.contentWindow.postMessage('getHeight', '*');
+            }
+        }
+
+        window.addEventListener('message', function(event) {
+            if (event.origin !== "https://php.greenspaceexhibits.com") return;
+            
+            if (event.data.type === 'setHeight' && event.data.height !== lastHeight) {
+                iframe.style.height = event.data.height + 'px';
+                lastHeight = event.data.height;
+            } else if (event.data === 'formSubmitted') {
+                // Refresh the page when form is submitted
+                window.location.reload();
+            }
+        }, false);
+
+        // Check height every 500ms
+        setInterval(checkIframeHeight, 500);
+        // Initial check
+        iframe.onload = checkIframeHeight;
+    </script>
+</body>
+</html>

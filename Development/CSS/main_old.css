@@ -1,0 +1,349 @@
+/* Large Desktop */
+@media only screen and (max-width: 2560px) and (min-width: 1025px) {
+    #sectionHeaderBarRW {
+        position: relative;
+        background-color: #979683;
+        border-radius: 0px .3rem 0px .3rem;
+        height: 0.95rem;
+        width: 12.54rem;
+        padding: 0;
+        margin-left: -.8rem;
+        margin-bottom: -0.6rem;
+        box-shadow: none;
+        z-index: -1;
+    }
+
+    #sectionHeaderBarOS {
+        position: relative;
+        background-color: #A3A8AF;
+        border-radius: 0px .3rem .3rem;
+        height: .95rem;
+        width: 7.5rem;
+        padding: 0;
+        margin-left: -.8rem;
+        margin-bottom: -.6rem;
+        box-shadow: none;
+        z-index: -1;
+    }
+
+    #sectionHeaderBarOL {
+        position: relative;
+        background-color: #D0D0AA;
+        border-radius: 0px .3rem 0px .3rem;
+        height: .95rem;
+        width: 9.9rem;
+        padding: 0em;
+        margin-left: -.8rem;
+        margin-bottom: -.6rem;
+        box-shadow: none;
+        z-index: -1;
+    }
+
+    #sectionHeaderBarCU {
+        position: relative;
+        background-color: #F3F0AF;
+        border-radius: 0px .3rem 0px .3rem;
+        height: .95rem;
+        width: 8.4rem;
+        padding: 0em;
+        margin-left: -.8rem;
+        margin-bottom: -.6rem;
+        box-shadow: none;
+        z-index: -1;
+    }
+
+    #sectionMorePhotos {
+        position: relative;
+        background-color: #FFF;
+        text-align: center;
+        letter-spacing: 0.2rem;
+        border-radius: 0px 0px 1.2rem 1.2rem;
+        height: 1.2rem;
+        width: 25%;
+        margin-bottom: -1.15rem;
+        margin-left: 11.75rem;
+        padding: 0;
+        box-shadow: none;
+        z-index: 2;
+    }
+
+    #sectionReUseCenter {
+        float: right;
+        background-color: #979683;
+        text-align: center;
+        letter-spacing: .1rem;
+        border-radius: 0px 0px .3rem .3em;
+        height: 2rem;
+        width: 20%;
+        margin-bottom: -1rem;
+        padding: 0;
+        box-shadow: none;
+        z-index: 2;
+    }
+
+    #sectionEmployment {
+        position: relative;
+        background-color: #F3F0AF;
+        text-align: center;
+        border-radius: 0px 0px 1.2rem 1.2rem;
+        width: 35%;
+        padding: 0;
+        box-shadow: none;
+        z-index: 2;
+        line-height: 1.2rem;
+        font-family: museo-sans-rounded, sans-serif;
+    }
+
+    #sectionMiscText {
+        font-size: 0.7rem;
+        color: #000000;
+        position: relative;
+        border-color: transparent;
+        text-align: center;
+        letter-spacing: .2rem;
+    }
+
+    #GSLogo {
+        max-height: 8rem;
+        padding-left: .8rem;
+        padding-top: 1.5rem;
+    }
+
+    #mapMain {
+        width: 98%;
+        height: 491px;
+    }
+
+    #OurStryImg {
+        background: url('../IMG/ourStory/seedling-v4.png');
+        background-repeat: no-repeat;
+        /* background-size: 100% 100%; */
+        background-size: cover;
+        background-position: top;
+        max-width: 98%;
+        max-height: 80%;
+        padding: 0%;
+        border-radius: 0px 1.2rem 1.2rem 1.2rem;
+        position: relative;
+    }
+
+    #OurStryTxt {
+        padding-left: 1rem;
+        padding-bottom: 10%;
+        width: 70%;
+        display: block;
+        line-height: 190% !important;
+        border-radius: 0px .3rem .3rem .3rem;
+    }
+
+    #OurStryLogos {
+        width: 22vh;
+        height: 100%;
+        position: absolute;
+        top: 1%;
+        right: 1%;
+    }
+
+    #GSphoneFax {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        font: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        font-size: .85rem;
+    }
+
+    #lastButton {
+        border-radius: 0px 0px 0vw .3rem;
+    }
+
+    .accordion {
+        letter-spacing: .1vw;
+        border-color: #000000;
+        border-style: solid;
+        border-width: .1rem 0px 0px 0px;
+        font-weight: 520;
+        font-family: open-sans, sans-serif;
+        background-color: #eee;
+        color: #000000;
+        cursor: pointer;
+        padding-left: .5rem !important;
+        width: 100%;
+        text-align: left;
+        outline: none;
+        font-size: 88%;
+        transition: 0.3s;
+    }
+
+    .active,
+    .accordion:hover {
+        background-color: #d8dbbe;
+        letter-spacing: .09vw;
+        font-weight: bold;
+    }
+
+    .accordionPanel {
+        font-size: 1rem;
+        color: #000000;
+        font-family: open-sans, sans-serif;
+        line-height: 129%;
+        text-align: left;
+        letter-spacing: 0;
+        padding: .3rem .2rem .3rem .9rem;
+        display: none;
+        background: linear-gradient(to bottom, #FFFFFF, rgba(255, 255, 255, 0.6));
+        overflow: hidden;
+    }
+
+    #OurStryTxt {
+        padding-left: 1.2rem;
+        width: 70%;
+        display: block;
+        line-height: 200% !important;
+    }
+
+    button {
+        border: 0px !important;
+        /* background-color: #0099cc; */
+        color: #ffffff;
+        padding: .6rem 0px .6rem 0px !important;
+    }
+
+    .mapFooter {
+        width: 98%;
+        background-color: #D0D0AA;
+        position: relative;
+        border-radius: 0px 0px 1.2rem 1.2rem;
+    }
+
+    .mapFooterHeaderText {
+        width: auto;
+        font-size: 1.1rem;
+        font: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        position: relative;
+        text-align: center;
+    }
+
+    .mapPhoneText {
+        width: auto;
+        font-size: .9vw;
+        font: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        position: relative;
+        text-align: center;
+    }
+
+    .mapTrimet {
+        font-size: 1.2rem;
+        position: relative;
+        text-align: center;
+    }
+
+    .mapCarpool {
+        font-size: .75rem;
+        font-style: italic;
+        position: relative;
+        background-color: transparent;
+        text-align: center;
+    }
+
+    .contactUsForm {
+		width: auto;
+        height: 13.5rem;
+        position: relative;
+        border-style: solid;
+        border-width: 1px;
+        position: relative;
+        background-color: #FFFFFF;
+        border-color: #000000;
+        border-radius: 0px 0px 0rem 1.2rem;
+    }
+
+    .newLine {
+        border-top: 1px solid rgb(0, 0, 0);
+        padding: 0vw;
+        margin: 0vw;
+        background-color: #FFFFFF;
+    }
+
+    .footerText {
+        display: inline-block;
+        font-size: 1rem;
+        font: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    .footerFcbkIcon {
+        opacity: 1;
+        display: inline-block;
+        color: #000;
+        background-repeat: no-repeat;
+        align-items: center;
+        background-size: contain;
+        background-image: url(/IMG/footer/fbicondrk-04.svg);
+    }
+
+    .footerInstgrmIcon {
+        display: inline-block;
+        color: #000;
+        background-repeat: no-repeat;
+        background-image: url(/IMG/footer/instagrmicons-05.svg);
+        align-items: center;
+    }
+
+    .footerLinkedinIcon {
+        display: inline-block;
+        color: #000;
+        background-repeat: no-repeat;
+        background-image: url(/IMG/footer/iconmonstr-linkedin-3.svg);
+        align-items: center;
+    }
+
+    .footerGSIcon {
+        display: inline-block;
+        color: #000;
+        background-repeat: no-repeat;
+        background-image: url(/IMG/footer/logolong-01.svg);
+        align-items: center;
+    }
+
+    .footerContents {
+        width: auto;
+        height: 1vw;
+    }
+
+    #g-recaptcha {
+        opacity: 1;
+        /* margin-left: -1rem; */
+        margin-bottom: 0rem;
+        padding: 0rem;
+        cursor: not-allowed;
+        transform: scale(0.9);
+        -webkit-transform: scale(0.95);
+        transform-origin: 0 0;
+        -webkit-transform-origin: 0 0
+    }
+
+    #noData {
+        color: red;
+        font-size: .8vw;
+        font-weight: bolder;
+        font: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        background: transparent;
+    }
+
+    #noMessage {
+        color: red;
+        font-size: .8vw;
+        font-weight: bolder;
+        font: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        background: transparent;
+    }
+
+    #noEmail {
+        color: red;
+        font-size: .8vw;
+        font-weight: bolder;
+        font: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        background: transparent;
+    }
+}

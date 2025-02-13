@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="2018.1.0.386" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Keywords"
+        content="greenspace exhibits,greenspacegroup,green space,greenspace hillsboro,greenspace group,green exhibits,green space exhibits,greenspace portland,eco fabrication, sustainable trade shows" />
+    <meta name="Description"
+        content="Greenspace provides alternatives to business-as-usual methods of creating exhibits and environments. We are experts on a mission to re-evaluating and replacing traditional materials, techniques and operational proceedures with new and improved methods." />
+    <link rel="shortcut icon" href="IMG\favicon.ico" />
+
+    <title>Greenspace</title>
+
+    <!-- <link rel="stylesheet" type="text/css" href="CSS\mystyles.css" /> -->
+    <link rel="stylesheet" type="text/css" href="CSS\bulma.css" />
+    <link rel="stylesheet" type="text/css" href="CSS\main.css" />
+    <link rel="stylesheet" type="text/css" href="CSS\splide.min.css" />
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.css" rel="stylesheet">
+    <script src="JS\splide.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.js"></script>
+
+    <script src="https://www.google.com/recaptcha/enterprise.js" async defer></script>
+    <style>
+        iframe {
+            width: 100%;
+            border: 0px #000000 solid;
+            transition: height 0.3s ease;
+        }
+    </style>
+</head>
+
+<body class="has-navbar-fixed-top pt-0">
+    <!-- Header/Menu section-->
+    <section class="section is-fixed-top pt-0 pb-5">
+        <nav class="navbar is-fixed-top"
+            style=" background-image: linear-gradient(30deg, #fff, rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0)), url(IMG/headerSection/headerslice-1280x110.jpg);
+        background-repeat: no-repeat; background-size: cover; background-position: center; border-radius: 0px 0px 0px 0px; max-width: 100%">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item">
+                        <image id="GSLogo" xlink:href=" IMG\headerSection\gslogo-header.svg"
+                            src="IMG/headerSection/gslogo-header.svg">
+                        </image>
+                    </a>
+                    <a class="navbar-burger is-white" id="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+                <div class="navbar-menu is-hidden-desktop" id="nav-links">
+                    <!-- right links -->
+                    <div class="navbar-end">
+                        <nav class="level is-mobile">
+                            <div class="level-item has-text-centered">
+                                <div>
+                                    <p>
+                                        <a class="link is-info" href="https://www.facebook.com/greenspaceexhibits"
+                                            target="_blank"> <img src="IMG\footer\fbicondrk-04.svg"
+                                                style="height: 1.6rem; vertical-align: middle">
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="level-item has-text-centered">
+                                <div>
+                                    <p>
+                                        <a class="link is-info" href="https://www.instagram.com/greenspaceexhibits/"
+                                            target="_blank"> img src="IMG\footer\instagrmicons-05.svg"
+                                            style="height: 1.5rem; vertical-align: middle">
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="level-item has-text-centered">
+                                <a class="link is-info" href="https://www.linkedin.com/company/gsg-exhibits"
+                                    target="_blank"> <img src="IMG\footer\iconmonstr-linkedin-3.svg"
+                                        style="height: 1.5rem; vertical-align: middle">
+                                </a>
+                            </p>
+                    </div>
+                </div>
+
+                <div id="navbarMenuHeroB" class="navbar-menu" style="margin-right: 2.5rem; align-items: flex-end">
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="https://www.facebook.com/greenspaceexhibits/" target="_blank"
+                            style="width: 3.5rem; z-index: 31">
+                            <image xlink:href=" IMG\headerSection\fb-wht.svg" src="IMG/headerSection/fb-wht.svg">
+                        </a>
+                        <a class=" navbar-item" href="https://www.instagram.com/greenspaceexhibits/" target="_blank"
+                            style="width: 3.5rem; z-index: 31">
+                            <image xlink:href=" IMG\headerSection\instagram-wht.svg"
+                                src="IMG/headerSection/instagram-wht.svg">
+                        </a>
+                        <a class="navbar-item" href="https://www.linkedin.com/company/gsg-exhibits" target="_blank"
+                            style="width: 3.2em;">
+                            <image xlink:href=" IMG\headerSection\linkedin-wht.svg"
+                                src="IMG/headerSection/linkedin-wht.svg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- End Section-->
+
+    <!-- Recent Work section -->
+    <section class="section pb-2">
+        <div id="recentwork" class="container mt-6">
+            <div id="sectionHeaderText">
+                <h4 class="Title is-4">OUR RECENT WORK</h4>
+                <div id="sectionHeaderBarORW">
+                    <!-- color bar -->
+                </div>
+            </div>
+            <div id="sectionMorePhotos">
+                <a href="http://photos.greenspacegroup.net/" target="_blank">
+                    <h2 class="Title is-2">CLICK FOR MORE PHOTOS</h2>
+                </a>
+                <!-- "More photo bar"-->
+            </div>
+            <!-- Splide slide photos -->
+            <div style="width: 98%">
+                <div class="splide">
+                    <div class="splide__track" style="border-radius: 0px 10px 10px 10px;">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <a href="http://photos.greenspacegroup.net/" target="_blank">
+                                    <image src="IMG\recentWork\Benchmade-ICAST24-1366x800.png">
+                                    </image>
+                                </a>
+                            </li>
+                            <li class="splide__slide">
+                                <a href="http://photos.greenspacegroup.net/" target="_blank">
+                                    <image src="IMG\recentWork\Benchmade-ICAST24-1366x800-2.png">
+                                    </image>
+                                </a>
+                            </li>
+                            <li class="splide__slide">
+                                <a href="http://photos.greenspacegroup.net/" target="_blank">
+                                    <image src="IMG\recentWork\Columbia-ICAST24-1366x800.png"></image>
+                                </a>
+                            </li>
+                            <li class="splide__slide">
+                                <a href="http://photos.greenspacegroup.net/" target="_blank">
+                                    <image src="IMG\recentWork\Simms-ICAST24-1366x800.png"></image>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End Section -->
+
+    <!-- Our Story section -->
+    <section class="section pb-2 pt-0">
+        <div class="container">
+            <div id="sectionHeaderText">
+                <div class="Title is-4">
+                    <h4>OUR STORY</h4>
+                </div>
+                <div id="sectionHeaderBarOS">
+                    <!-- color bar -->
+                </div>
+            </div>
+            <div id="OurStryImg">
+                <div id="OurAwardsLogos">
+                    <!--Awards-->
+                </div>
+                <div id="OurStryTxt">
+                    <button class="accordion active">DESIGN & BUILD</button>
+                    <div class="accordionPanel" style="display: block;">
+                        <p><strong style="color:#000000;">GREENSPACE</strong> provides refreshing
+                            alternatives to the
+                            business-as-usual methods of
+                            creating exhibits
+                            and environments.<br>
+                            We are on a mission to re-evaluate and replace traditional materials,
+                            techniques and operational procedures with eco-friendly methods. Our goal is to achieve
+                            complete
+                            sustainability – send nothing to the landfill. Our clients benefit from our team's expertise
+                            because we:</p>
+                        <ul style="padding-left: 1.5rem; list-style-type: square;">
+                            <li>Impress with cutting edge design.</li>
+                            <li>Craft high-end properties using a multitude of fabrication techniques.</li>
+                            <li>Exceed expectations with our service.</li>
+                        </ul>
+                    </div>
+                    <button class="accordion">OUR METHODS</button>
+                    <div class="accordionPanel">
+                        <p>At <strong style="color:#000000;">GREENSPACE</strong>, we help establish a framework for
+                            sustainability from start
+                            to finish:
+                        <ul style="padding-left: 1.5rem; list-style-type: square;">
+                            <li> We examine your entire exhibit program, working backwards from your exhibit on the show
+                                floor
+                                to design.</li>
+                            <li>Engineer to reduce show site drayage and shipping costs.
+                                Integrate emerging techniques in sustainable manufacturing new
+                                green materials.</li>
+                            <li>Partner with local suppliers to reduce carbon emissions from
+                                shipping components.</li>
+                            <li>Re-use and re-purpose existing components whenever possible.</li>
+                            <li>Create and maintain high-end rental properties fabricated from
+                                sustainable materials.</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <button class="accordion">OUR PEOPLE</button>
+                    <div class="accordionPanel">
+                        <p>Our skilled, dedicated team of designers, craftsmen, and project managers
+                            have:</p>
+                        <ul style="padding-left: 1.5rem; list-style-type: square;">
+                            <li>Engineered and fabricated some of the largest and most complex exhibits ever built.</li>
+                            <li>Partnered with top designers to bring their vision to fruition.</li>
+                            <li>Worked with companies ranging from start-ups to established corporate leaders.</li>
+                            <li>Travelled across the U.S. and internationally to supervise show installation and
+                                dismantle.
+                            </li>
+                            <li>Earned a myriad of design awards.</li>
+                        </ul>
+                        <p><strong style="color:#000000;">OUR PARTNERS</strong>
+                            Our clients and partners are progressive companies who want to make a statement without
+                            leaving
+                            a footprint.
+                        </p>
+                    </div>
+                    <button class="accordion">FULL EXHIBITION SERVICE CAPABILITIES</button>
+                    <div class="accordionPanel">
+                        <p><strong style="color:#000000;">GREENSPACE</strong> provides the services you need to bring
+                            your
+                            custom exhibit or permanent installation,
+                            such as a corporate lobby or visitor center, from concept to completion – using sustainable
+                            methods and materials. In addition to 3-D exhibit design and fabrication, we are a single
+                            source
+                            solution for complete exhibition management.</p>
+
+                        <strong style="color:#000000;">DESIGN & FABRICATION</strong>
+                        <ul style="padding-left: 1.5rem; list-style-type: square;">
+                            <li>Conceptual design and renderings.</li>
+                            <li>Value and structural engineering.</li>
+                            <li>Full graphic services – design and production.</li>
+                            <li>High quality fabrication.</li>
+                        </ul>
+
+                        <strong style="color:#000000;">PROJECT & SERVICES MANAGEMENT</strong>
+                        <ul style="padding-left: 1.5rem; list-style-type: square;">
+                            <li>On-site supervision and coordination of services.</li>
+                            <li>Logistics management (Shipping, Installation & Dismantle).</li>
+                            <li>Exhibitor show forms management.</li>
+                            <li>Audio visual, computer and specialty lighting programs.</li>
+                            <li>Storage, maintenance and warehousing.</li>
+                            <li>Inventory and asset management.</li>
+                        </ul>
+                    </div>
+                    <button class="accordion">OUR HISTORY</button>
+                    <div class="accordionPanel">
+                        <p><strong style="color:#000000;">GREENSPACE</strong> was launched in Hillsboro, Oregon, in 2008
+                            from a small team of trade-show exhibit
+                            design and fabrication veterans who combined their industry expertise with their
+                            environmental
+                            commitment to ‘‘rethink everything’’ wasteful in tradeshow practices.</p>
+                    </div>
+                    <button class="accordion" id="lastButton">WHAT WE'RE
+                        DOING</button>
+                    <div class="accordionPanel" style="border-radius: 0px 0px 0vw .9vw;">
+                        <strong style="color:#000000;">Energy efficiency</strong>
+                        <ul style="padding-left: 1.5rem; list-style-type: square;">
+                            <li>Solar panels offset more than 90% of company energy usage.</li>
+                            <li>Our website is hosted with 100% solar energy.</li>
+                            <li>All facility lighting is fluorescent. Occupancy sensors are set for lights in common
+                                rooms. </li>
+                        </ul>
+                        <strong style="color:#000000;">Green Operations</strong>
+                        <ul style="padding-left:1%; list-style-type: square;">
+                            <li>We stick to a comprehensive Recycling Program (which includes wood, cardboard/paper,
+                                metal, plastic, and glass).</li>
+                            <li>We use 100% recycled copier paper, reusuable dishware and
+                                green-cleaning products.</li>
+                        </ul>
+                        <strong style="color:#000000;">Sustainable Construction</strong>
+                        <ul style="padding-left: 1.5rem; list-style-type: square;">
+                            <li>Locally-sourced FSC certified plywood and sustainable woods are selected whenever
+                                possible.</li>
+                            <li>Our adhesive and finishing materials are low VOC and non-toxic.
+                                Reclaimed and refurbished items are used to reduce consumption of
+                                new materials.</li>
+                            <li>For retired exhibits, we properly dismantle, recycle, and dispose
+                                all components.</li>
+                            <li>Our crate construction reduces the weight of each crate by 70 pounds for lighter
+                                shipping.</li>
+                        </ul>
+                        <strong style="color:#000000;">Environmental Stewardship</strong>
+                        <ul style="padding-left: 1.5rem; list-style-type: square;">
+                            <li>We’re a member of the Conservation Alliance, a collection of organizations that
+                                protect threatened wild habitat and outdoor recreation places across America.
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="sectionReUseCenter">
+                        <a href="https://rental.greenspacegroup.net/accounts/login/?next=/" target="_blank"
+                            id="sectionMiscText">
+                            <h2 class="Title is-3" style="color: #fff;">RENTAL REUSE CENTER</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End section-->
+
+    <!--Location section -->
+    <section class="section pt-0 pb-2">
+        <div id="sectionHeader">
+            <div name="ourlocation" class="container">
+                <h4 id="sectionHeaderText">OUR LOCATION</h4>
+                <div id="sectionHeaderBarOL">
+                    <!-- color bar -->
+                </div>
+                <!--Start of Mapbox-->
+                <div id="mapMain" class="mapboxgl-map">
+                    <!-- <div id="mapMain" class="=mapboxgl-map">
+                    <a href="IMG/BuildingImg.png"></a>
+                </div> -->
+                </div>
+                <!--End of Mapbox-->
+                <!--Start of lower mapbox section-->
+                <div class="mapFooter">
+                    <div class="columns">
+                        <div class="column">
+                            <div class="mapFooterHeaderText">
+                                <p>5515 NE Wagon Drive, Hillsboro, OR 97124</p>
+                                <div id=GSphoneFax>
+                                    <p>Phone:
+                                        <strong><a href="tel:1-503-533-0500">1-503-533-0500</a></strong>
+                                    </p>
+                                    <p>
+                                        Fax: <strong>503-533-0600</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="mapTrimet">
+                                <a href="https://trimet.org/home/planner" target="_blank">
+                                    <p>Trimet Trip Planner</p>
+                                </a>
+                            </div>
+                            <div class="mapCarpool">
+                                <p>(Carpool and bicycle parking available.)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End section-->
+
+    <!-- Contact us section -->
+    <section class="section pt-4 pb-0">
+        <div id="sectionHeader">
+            <div class="container">
+                <div id="sectionHeader">
+                    <div class="container">
+                        <!-- Start color bar -->
+                        <h4 id="sectionHeaderText">CONTACT US</h4>
+                        <div id="sectionHeaderBarCU">
+                        </div>
+                        <!--  End color bar -->
+
+                        <iframe id="myIframe" src="https://php.greenspaceexhibits.com/scripts/emailTest-v2.php"
+                            scrolling="no" allowfullscreen allowtransparency="true"></iframe>
+                    </div>
+                    <!--contactUsbox end-->
+    </section>
+    <!--End section-->
+
+    <!-- Footer section -->
+    <section class="section pt-1 pb-4">
+        <div class="container" style="width: 98%;">
+            <div class=" footerContents">
+                <div class="container has-text-centered p-0 mb-0rem">
+                    <hr class="newLine">
+                    <!--                     <a href="#recentwork">
+                        <p class="footerText">OUR RECENT WORK
+                            <img src="IMG\footer\iconarrowleft-grn-03-03.svg"
+                                style="height: 1rem; vertical-align: middle">
+
+                        </p>
+                    </a> -->
+                    <a href="#ourstory">
+                        <p class="footerText">OUR STORY
+                            <img src="IMG\footer\iconarrowleft-grn-03-03.svg"
+                                style="height: 1rem; vertical-align: middle">
+                        </p>
+                    </a>
+                    <a href="#ourlocation">
+                        <p class="footerText" style="display: inline-block; width:auto; margin-left: 5px">OUR LOCATION
+                            <img src="IMG\footer\iconarrowleft-grn-03-03.svg"
+                                style="height: 1rem; vertical-align: middle">
+                        </p>
+                    </a>
+                    <a href="#contactus">
+                        <p class="footerText" style="display: inline-block; width:auto; margin-left: 5px">CONTACT US
+                            <img src="IMG\footer\iconarrowleft-grn-03-03.svg"
+                                style="height: 1rem; vertical-align: middle">
+                        </p>
+                    </a>
+
+                    <nav class="level is-mobile mb-0">
+                        <p class="level-item has-text-centered">
+                            <a class="link is-info" href="https://www.facebook.com/greenspaceexhibits" target="_blank">
+                                <img src="IMG\footer\fbicondrk-04.svg" style="height: 1.6rem; vertical-align: middle">
+                            </a>
+                        </p>
+                        <p class="level-item has-text-centered">
+                            <a class="link is-info" href="https://www.instagram.com/greenspaceexhibits/"
+                                target="_blank">
+                                <img src="IMG\footer\instagrmicons-05.svg"
+                                    style="height: 1.5rem;  vertical-align: middle">
+                            </a>
+                        </p>
+                        <p class="level-item has-text-centered">
+                            <a class="link is-info" href="https://www.linkedin.com/company/gsg-exhibits"
+                                target="_blank">
+                                <img src="IMG\footer\iconmonstr-linkedin-3.svg"
+                                    style="height: 1.5rem;  vertical-align: middle">
+                            </a>
+                        </p>
+                        <p class="level-item has-text-centered">
+                            <img src="IMG\footer\logolong-01.svg" alt="Greenspace Logo" style="height: 2.5rem;">
+                        </p>
+                    </nav>
+                    <hr class="newLine">
+                    <p class="subtitle is-7" style="padding-bottom: 2%;">© Greenspacegroup.net | All Rights Reserved
+                        2025
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End section-->
+</body>
+
+<!-- Document reset -->
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+        new Splide('.splide', {
+            type: 'loop',
+            pauseOnHover: false,
+            autoplay: true,
+            rewind: true,
+            speed: 550,
+            perPage: 1,
+        }).mount();
+    });
+</script>
+<!-- Accordion script -->
+<script type="text/javascript">
+    var acc = document.getElementsByClassName("accordion");
+    var lastButton = document.getElementById("lastButton");
+    var i;
+    var openPanel = document.getElementsByClassName("accordionPanel");
+    var arr = Array.from(openPanel);
+
+    lastButton.addEventListener('click', function () {
+        if (lastButton.style.borderRadius = "0px 0px .9vw .9vw;") { lastButton.style.borderRadius = "0px"; };
+    })
+
+    for (i = 0; i < acc.length; i++) {
+        //lastButton.style.borderRadius = "0px 0px .9vw .9vw;"
+        acc[i].addEventListener("click", function () {
+            for (x = 0; x < arr.length; x++) {
+                arr[x].style.display = 'none';
+                if (acc[x].classList.contains("accordion")) {
+                    acc[x].classList.remove("active");
+                };
+            };
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+</script>
+<!-- MapBox script -->
+<script type="text/javascript">
+    mapboxgl.accessToken = 'pk.eyJ1Ijoiam9lbHUiLCJhIjoiY2x6OHQzNXJiMDRjczJ3cTZ5NXo3dTZ2cyJ9.vrG6pXX0RhbhirEzqlViVw';
+    var map = new mapboxgl.Map({
+        container: 'mapMain',
+        //style: 'mapbox://styles/joelu/cj671n3vw04bs2ssiifc2e4b1',
+        //style: 'mapbox://styles/mapbox/streets-v12',
+        style: 'mapbox://styles/mapbox/satellite-streets-v12',
+        interactive: false,
+        scrollZoom: false,
+        projection: 'globe',
+        pitch: 40,
+        bearing: -40,
+        center: [-122.911, 45.562],
+        zoom: 17
+    });
+    var mql = window.matchMedia("screen and (min-width: 1921px)")
+    if (mql.matches) { // if media query matches
+        map.on();
+    }
+    else {
+        map.resize();
+    };
+</script>
+
+<!-- mobile menu -->
+<script type="text/javascript">
+    const burgerIcon = document.querySelector('#burger');
+    const navbarMenu = document.querySelector('#nav-links');
+
+    burgerIcon.addEventListener('click', () => {
+        burgerIcon.classList.toggle('is-active');
+        navbarMenu.classList.toggle('is-active');
+    });
+</script>
+<!---iFrame scripts-->
+<script>
+    const iframe = document.getElementById('myIframe');
+    let lastHeight = 0;
+
+    function checkIframeHeight() {
+        if (iframe.contentWindow) {
+            iframe.contentWindow.postMessage('getHeight', '*');
+        }
+    }
+
+    window.addEventListener('message', function (event) {
+        if (event.origin !== "https://php.greenspaceexhibits.com") return;
+
+        if (event.data.type === 'setHeight' && event.data.height !== lastHeight) {
+            iframe.style.height = event.data.height + 'px';
+            lastHeight = event.data.height;
+        } else if (event.data === 'formSubmitted') {
+            // Refresh the page when form is submitted
+            window.location.reload();
+        }
+    }, false);
+
+    // Check height every 500ms
+    setInterval(checkIframeHeight, 500);
+    // Initial check
+    iframe.onload = checkIframeHeight;
+</script>
+
+</html>
